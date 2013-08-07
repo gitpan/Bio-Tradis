@@ -38,7 +38,7 @@ Bio::Tradis::TradisPlot - Generate plots as part of a tradis analysis
 
 =head1 VERSION
 
-version 1.132140
+version 1.132190
 
 =head1 SYNOPSIS
 
@@ -49,6 +49,23 @@ in GFF format
    
    my $pipeline = Bio::Tradis::TradisPlot->new(mappedfile => 'abc');
    $pipeline->plot();
+
+=head1 PARAMETERS
+
+=head2 Required
+
+C<mappedfile> - mapped and sorted BAM file
+
+=head2 Optional
+
+=over 
+=item * C<outfile> - base name to assign to the resulting insertion site plot. Default = tradis.plot
+=item * C<mapping_score> - cutoff value for mapping score. Default = 30
+=back
+
+=head1 METHODS
+
+C<plot> - create insertion site plots for reads in `mappedfile`. This file will be readable by the L<Artemis genome browser|http://www.sanger.ac.uk/resources/software/artemis/>
 
 =head1 AUTHOR
 

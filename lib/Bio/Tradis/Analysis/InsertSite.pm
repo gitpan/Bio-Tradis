@@ -199,9 +199,11 @@ Bio::Tradis::Analysis::InsertSite
 
 =head1 VERSION
 
-version 1.132140
+version 1.132190
 
 =head1 SYNOPSIS
+
+Takes in a mapped BAM file and plot the start position of each read
 
 use Bio::Tradis::Analysis::InsertSite;
 my $insertsite_plots_from_bam = Bio::Tradis::Analysis::InsertSite->new(

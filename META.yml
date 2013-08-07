@@ -29,4 +29,4 @@ requires:
 resources:
   homepage: http://www.sanger.ac.uk/
   repository: https://github.com/sanger-pathogens/Bio-Tradis.git
-version: 1.132140
+version: 1.132190

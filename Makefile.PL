@@ -43,7 +43,7 @@ my %WriteMakefileArgs = (
     "File::Slurp" => 0,
     "Test::Most" => 0
   },
-  "VERSION" => "1.132140",
+  "VERSION" => "1.132190",
   "test" => {
     "TESTS" => "t/*.t t/Bio/Tradis/*.t t/Bio/Tradis/Analysis/*.t t/Bio/Tradis/Parser/*.t"
   }

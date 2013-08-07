@@ -24,7 +24,7 @@ filter_tags - filter tags at start of fastq sequences
 
 =head1 VERSION
 
-version 1.132140
+version 1.132190
 
 =head1 SYNOPSIS
 

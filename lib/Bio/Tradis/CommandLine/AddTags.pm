@@ -78,7 +78,7 @@ Bio::Tradis::CommandLine::AddTags - Add given tags to the start of the sequence
 
 =head1 VERSION
 
-version 1.132140
+version 1.132190
 
 =head1 SYNOPSIS
 

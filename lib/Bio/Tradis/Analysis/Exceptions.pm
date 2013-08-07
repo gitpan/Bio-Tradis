@@ -1,3 +1,4 @@
+
 package Bio::Tradis::Analysis::Exceptions;
 
 use Exception::Class (
@@ -21,7 +22,11 @@ Bio::Tradis::Analysis::Exceptions
 
 =head1 VERSION
 
-version 1.132140
+version 1.132190
+
+=head1 SYNOPSIS
+
+Basic exception catcher
 
 =head1 AUTHOR
 

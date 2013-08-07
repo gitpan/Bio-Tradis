@@ -170,7 +170,7 @@ Bio::Tradis::CommandLine::TradisAnalysis - Perform full tradis analysis
 
 =head1 VERSION
 
-version 1.132140
+version 1.132190
 
 =head1 SYNOPSIS
 

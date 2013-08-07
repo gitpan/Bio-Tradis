@@ -398,13 +398,13 @@ Bio::Tradis::RunTradis - Perform all steps required for a tradis analysis
 
 =head1 VERSION
 
-version 1.132140
+version 1.132190
 
 =head1 SYNOPSIS
 
 Takes a fastq file with tags already attached, filters the tags matching user input,
 removes the tags, maps to a reference (.fa) and generates insertion site plots for use in
-Artemis
+Artemis (or other genome browsers), mapped BAM files for each lane and a statistical summary of the analysis.
 
    use Bio::Tradis::RunTradis;
    
@@ -415,6 +415,31 @@ Artemis
 					tagdirection => '5'|'3'
    );
    $pipeline->run_tradis();
+
+=head1 PARAMETERS
+
+=head2 Required
+
+=over 
+=item * C<fastqfile> - file containing a list of fastqs (gzipped or raw) to run the 
+			complete analysis on. This includes all (including 
+			intermediary format conversion and sorting) steps starting from
+			filtering.
+=item * C<tag> - TraDIS tag to filter and then remove
+=item * C<reference> - path to/name of reference genome in fasta format (.fa)
+=back
+
+=head2 Optional
+
+=over 
+=item * C<mismatch> - number of mismatches to allow when filtering/removing the tag. Default = 0
+=item * C<tagdirection> - direction of the tag, 5' or 3'. Default = 3
+=item * C<mapping_score> - cutoff value for mapping score when creating insertion site plots. Default = 30
+=back
+
+=head1 METHODS
+
+C<run_tradis> - run complete analysis with given parameters
 
 =head1 AUTHOR
 

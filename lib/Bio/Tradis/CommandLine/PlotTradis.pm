@@ -82,7 +82,7 @@ Bio::Tradis::CommandLine::PlotTradis - Generate plots as part of a tradis analys
 
 =head1 VERSION
 
-version 1.132140
+version 1.132190
 
 =head1 SYNOPSIS
 

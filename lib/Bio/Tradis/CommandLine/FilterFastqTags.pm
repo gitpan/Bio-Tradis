@@ -88,7 +88,7 @@ Bio::Tradis::CommandLine::FilterFastqTags - Remove given tags from the start of 
 
 =head1 VERSION
 
-version 1.132140
+version 1.132190
 
 =head1 SYNOPSIS
 

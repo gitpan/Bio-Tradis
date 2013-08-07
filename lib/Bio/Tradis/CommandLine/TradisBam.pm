@@ -92,7 +92,7 @@ Bio::Tradis::CommandLine::TradisBam - Adds tags to sequences if tags are present
 
 =head1 VERSION
 
-version 1.132140
+version 1.132190
 
 =head1 SYNOPSIS
 
